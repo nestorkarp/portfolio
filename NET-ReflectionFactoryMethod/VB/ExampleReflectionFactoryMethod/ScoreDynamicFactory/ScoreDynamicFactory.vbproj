@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<RootNamespace>ScoreDynamicFactory</RootNamespace>
+		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyName>Score.Dynamic.Factory</AssemblyName>
+		<RootNamespace>Score.Dynamic.Factory</RootNamespace>
+		<Authors>Néstor Karp</Authors>
+	</PropertyGroup>
+
+</Project>

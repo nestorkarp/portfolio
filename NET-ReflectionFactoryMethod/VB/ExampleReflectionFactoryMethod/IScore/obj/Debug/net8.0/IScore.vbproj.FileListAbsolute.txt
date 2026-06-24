@@ -1,0 +1,11 @@
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\IScore\bin\Debug\net8.0\Score.Plugin.Interface.deps.json
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\IScore\bin\Debug\net8.0\Score.Plugin.Interface.dll
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\IScore\bin\Debug\net8.0\Score.Plugin.Interface.pdb
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\IScore\obj\Debug\net8.0\IScore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\IScore\obj\Debug\net8.0\IScore.AssemblyInfoInputs.cache
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\IScore\obj\Debug\net8.0\IScore.AssemblyInfo.vb
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\IScore\obj\Debug\net8.0\IScore.vbproj.CoreCompileInputs.cache
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\IScore\obj\Debug\net8.0\Score.Plugin.Interface.dll
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\IScore\obj\Debug\net8.0\refint\Score.Plugin.Interface.dll
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\IScore\obj\Debug\net8.0\Score.Plugin.Interface.pdb
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\IScore\obj\Debug\net8.0\ref\Score.Plugin.Interface.dll

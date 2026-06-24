@@ -1,0 +1,15 @@
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreWithZero\bin\Debug\net8.0\Score.Plugin.ScoreWithZero.deps.json
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreWithZero\bin\Debug\net8.0\Score.Plugin.ScoreWithZero.dll
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreWithZero\bin\Debug\net8.0\Score.Plugin.ScoreWithZero.pdb
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreWithZero\bin\Debug\net8.0\Score.Plugin.Interface.dll
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreWithZero\bin\Debug\net8.0\Score.Plugin.Interface.pdb
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreWithZero\obj\Debug\net8.0\ScoreWithZero.vbproj.AssemblyReference.cache
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreWithZero\obj\Debug\net8.0\ScoreWithZero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreWithZero\obj\Debug\net8.0\ScoreWithZero.AssemblyInfoInputs.cache
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreWithZero\obj\Debug\net8.0\ScoreWithZero.AssemblyInfo.vb
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreWithZero\obj\Debug\net8.0\ScoreWithZero.vbproj.CoreCompileInputs.cache
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreWithZero\obj\Debug\net8.0\ScoreWit.4CA11762.Up2Date
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreWithZero\obj\Debug\net8.0\Score.Plugin.ScoreWithZero.dll
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreWithZero\obj\Debug\net8.0\refint\Score.Plugin.ScoreWithZero.dll
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreWithZero\obj\Debug\net8.0\Score.Plugin.ScoreWithZero.pdb
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreWithZero\obj\Debug\net8.0\ref\Score.Plugin.ScoreWithZero.dll

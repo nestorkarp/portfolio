@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<RootNamespace>ScoreWithOutZero</RootNamespace>
+		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyName>Score.Plugin.ScoreWithOutZero</AssemblyName>
+		<Authors>Néstor Karp</Authors>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Reference Include="Score.Plugin.Interface">
+	    <HintPath>..\IScore\bin\Debug\net8.0\Score.Plugin.Interface.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+</Project>
