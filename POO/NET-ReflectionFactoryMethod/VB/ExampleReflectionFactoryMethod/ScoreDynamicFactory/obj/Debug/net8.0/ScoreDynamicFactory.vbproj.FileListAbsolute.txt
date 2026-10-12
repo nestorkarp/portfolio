@@ -1,0 +1,11 @@
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreDynamicFactory\bin\Debug\net8.0\Score.Dynamic.Factory.deps.json
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreDynamicFactory\bin\Debug\net8.0\Score.Dynamic.Factory.dll
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreDynamicFactory\bin\Debug\net8.0\Score.Dynamic.Factory.pdb
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreDynamicFactory\obj\Debug\net8.0\ScoreDynamicFactory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreDynamicFactory\obj\Debug\net8.0\ScoreDynamicFactory.AssemblyInfoInputs.cache
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreDynamicFactory\obj\Debug\net8.0\ScoreDynamicFactory.AssemblyInfo.vb
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreDynamicFactory\obj\Debug\net8.0\ScoreDynamicFactory.vbproj.CoreCompileInputs.cache
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreDynamicFactory\obj\Debug\net8.0\Score.Dynamic.Factory.dll
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreDynamicFactory\obj\Debug\net8.0\refint\Score.Dynamic.Factory.dll
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreDynamicFactory\obj\Debug\net8.0\Score.Dynamic.Factory.pdb
+C:\Dev\DemoLinkedIn\ExampleReflectionFactoryMethod\VB\ExampleReflectionFactoryMethod\ScoreDynamicFactory\obj\Debug\net8.0\ref\Score.Dynamic.Factory.dll

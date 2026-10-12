@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Score.Dynamic.Factory/1.0.0": {
+        "runtime": {
+          "Score.Dynamic.Factory.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Score.Dynamic.Factory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
