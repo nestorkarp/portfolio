@@ -1,0 +1,34 @@
+-- Database:  Oracle21C Express Edition
+
+
++ Configuración de Esquemas/Usuarios asociados RRHH.WebAPI  desde ORACLE SQL DEVELOPER
+
+  1. Creación de conexión para Esquema sys, desde el cual ha de crearse el usuario HR (desde la opción OtrosUsuarios}
+       - Name: SYS
+       - User: sys
+       - Pwd: {Definida en el proceso de instalación del producto}
+       - Role: SYSDBA
+       - Hostname: localhost
+       - Port: 1521
+       - Servicio: XEPDB1
+        
+
+   2. Creación de usuario HR
+       - Ejecutar la sentencia:  alter session set "_ORACLE_SCRIPT"=true; 
+       - Definir: Usuario y Pwd
+       - Configurar  Roles Otorgados:   AUTHENTICADEUSER  [Otorgado]-[Administrar]-[PorDefecto]    
+       - Configurar  Privilegios del Sistema: Seleccionar [Otorgar Todo]
+       - Configurar  Privilegios del Sistema: Desmarcar [KEEP DATE TIME - KEEP SYSGUID - SYSBACKUP - SYSDBA- SYSDG - SYSKM -SYSOPER - SYSRAC]
+
+
+  3. Creación de Conexion DemoHR
+       - Name: DemoHR
+       - User: HR
+       - Pwd: {Definida en la creación del usuario}
+       - Hostname: localhost
+       - Port: 1521
+       - Servicio: XEPDB1
+         
+
+
+  4. Creación de tabla Employee + Trigger + Stored Procedure

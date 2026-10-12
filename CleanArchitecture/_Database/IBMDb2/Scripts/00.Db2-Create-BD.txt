@@ -1,0 +1,14 @@
+-- Tareas a realizarse desde Db2 Command Window-Administrador --
+
+   > Inicio de servicio Db2: db2start
+
+   > Listado de BD existentes: db2 list database directory
+
+   > Creación de Base de Datos: db2 create database DemoHR
+
+
+   > Asignación de permisos DBA a usuario definido en la creación de la BD
+     a) db2 connect to DemoHR
+     b) db2 GRANT DBADM ON DATABASE TO USER db2manager
+     c) CREATE SCHEMA RH; 
+  

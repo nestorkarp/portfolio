@@ -1,0 +1,60 @@
+# ==========================================
+# Documentación RRHH.WebApi.Employee
+# ==========================================
+
+## CUIT o CUIL debe ser real dado que el modelo valida este contra un algoritmo empleado por ARCA
+
+# Host se encuentra definido en launchSettings.json
+@Host = {{development.Host}}
+
+
+###
+# @name create
+POST {{Host}}/api/employee/create
+Content-Type: application/json
+{
+  "employee": {
+    "firstname": "Juan",
+    "lastname": "Perez",
+    "birthdate":  "1990-05-15",
+    "active": 1,
+   "identityCard": "01234567890"
+  }
+}
+
+
+###
+# @name update
+PUT {{Host}}/api/employee/update/1
+Content-Type: application/json
+{
+  "employee": {
+    "Id": 1,
+    "firstname": "Juan-Update",
+    "lastname":  "Perez-Update",
+    "birthdate":  "1990-05-15",
+    "active": 0
+  }
+}
+
+
+
+### 
+# @name get
+# GET - Recupera empleado registrado a través de Id
+ GET {{Host}}/api/employee/get?Employee.Id=0
+Accept: application/json
+
+###
+# @name get
+# GET - Recupera los empleados registrados a través de CUIT/CUIL
+ GET {{Host}}/api/employee/get?Employee.IdentityCard=01234567890
+Accept: application/json
+
+###
+# @name get
+# GET - Recupera los empleados registrados a través del Estado del registro Activo/Inactivo(Baja Lógica)
+GET {{Host}}/api/employee/get?Employee.Active=null
+Accept: application/json
+
+

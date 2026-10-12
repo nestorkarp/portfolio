@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Authors>Néstor Karp</Authors>
+		<Copyright>2026</Copyright>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Serilog.AspNetCore" Version="10.0.0" />
+		<PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\RRHH.Infrastructure.Persistence\RRHH.Infrastructure.Persistence.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Logs\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="RRHH.Core.Application.DTO">
+	    <HintPath>..\RRHH.Infrastructure.Persistence\bin\Debug\net8.0\RRHH.Core.Application.DTO.dll</HintPath>
+	  </Reference>
+	  <Reference Include="RRHH.Core.Application.Interfaces.Services">
+	    <HintPath>..\RRHH.Core.Application.Interfaces.Services\bin\Debug\net8.0\RRHH.Core.Application.Interfaces.Services.dll</HintPath>
+	  </Reference>
+	  <Reference Include="RRHH.Core.Domain.Services">
+	    <HintPath>..\RRHH.Core.Domain.Services\bin\Debug\net8.0\RRHH.Core.Domain.Services.dll</HintPath>
+	  </Reference>
+	  <Reference Include="ServicesSwF.Helper.API.DTO">
+	    <HintPath>..\..\..\..\Helper\ServicesSwF.Helper\ServicesSwF.Helper.API.DTO\bin\Debug\net8.0\ServicesSwF.Helper.API.DTO.dll</HintPath>
+	  </Reference>
+	  <Reference Include="ServicesSwF.Helper.Application.DTO">
+	    <HintPath>..\..\..\..\Helper\ServicesSwF.Helper\ServicesSwF.Helper.Application.DTO\bin\Debug\net8.0\ServicesSwF.Helper.Application.DTO.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+	<ProjectExtensions>
+		<VisualStudio>
+			<UserProperties properties_4launchsettings_1json__JsonSchema="" />
+		</VisualStudio>
+	</ProjectExtensions>
+
+</Project>

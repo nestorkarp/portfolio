@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Authors>Néstor Karp</Authors>
+		<Copyright>2026</Copyright>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Folder Include="Entities\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Oracle.EntityFrameworkCore" Version="8.23.26300" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="RRHH.Core.Application.DTO">
+	    <HintPath>..\RRHH.Core.Application.Interfaces.Repository\bin\Debug\net8.0\RRHH.Core.Application.DTO.dll</HintPath>
+	  </Reference>
+	  <Reference Include="RRHH.Core.Application.Interfaces.Repository">
+	    <HintPath>..\RRHH.Core.Application.Interfaces.Repository\bin\Debug\net8.0\RRHH.Core.Application.Interfaces.Repository.dll</HintPath>
+	  </Reference>
+	  <Reference Include="ServicesSwF.Helper.Application.DTO">
+	    <HintPath>..\RRHH.Core.Application.Interfaces.Repository\bin\Debug\net8.0\ServicesSwF.Helper.Application.DTO.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+</Project>

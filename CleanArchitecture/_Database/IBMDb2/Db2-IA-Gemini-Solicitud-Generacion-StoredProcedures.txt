@@ -1,0 +1,62 @@
++ Base de Dato: IBM DB2 for Windows
+
++ Tabla asociada[ EMPLOYEE ]
+  + Atributos:
+    . ELE_ID integer identity 
+    . ELE_IDENTITYCARD VARCHAR(11 OCTETS)
+    . ELE_FIRSTNAME VARCHAR(30 OCTETS)
+    . ELE_LASTNAME VARCHAR(30 OCTETS)
+    . ELE_BIRTHDATE DATE
+    . ELE_ACTIVE DECIMAL(1 , 0)
+
+
++ Generación de Stored Procedure
+   . Observaciones a tomar en consideración en la generación de los Stored Procedure INSERT - UPDATE - READ  
+      a)El nombre de cada parametro debe declararse en minuscula y excluir los 4 primeros caracteres
+      b)El nombre del Stored Procedure debe ser: Prefijo SP_ + Tabla asociada + "_" + Sufijo (C= Create - U= Update - R= Read)
+      c)Primero definir los parametros Input y luego los Output
+      d)Debe retornar el Tipo de Error si es de VALIDATION o TECHNICAL en el parametro p_ErrorSource : [ Datatype= VARCHAR(10)] [ Direction= OUTPUT ]  
+      e)Debe retornar la Descripción del Error en el parametro p_ErrorMessage: [ Datatype= VARCHAR(255)] [ Direction= OUTPUT ] 
+      f)Por ultimo generar script para realizar Test de los Stored Procedure tanto para el caso Exitoso como el Erroneo
+
+     1. INSERT 
+	 1.1. Atributos asociados:
+             . ELE_ID
+             . ELE_IDENTITYCARD  
+             . ELE_FIRSTNAME
+             . ELE_LASTNAME
+             . ELE_BIRTHDATE
+             . ELE_ACTIVE
+         1.2. Para el atributo identityCard existe un Indice que impide la duplicación, si la Base de Datos lo detectara
+              debería retornar mensaje por Error de Validación "Registro Existente."
+         1.3. Debe retornar el ELE_ID generado 
+
+
+     2. UPDATE
+	2.1. Atributos asociados:
+             . ELE_ID 
+             . ELE_FIRSTNAME
+             . ELE_LASTNAME
+             . ELE_BIRTHDATE
+             . ELE_ACTIVE
+         2.2. La Cóndición para actualizar registo es que el parametro (p_id) coincida con el valor del atributo ELE_ID
+         2.2. Si el p_id no existiese debe retornar mensaje por Error de Validación "Registro Inexistente."
+
+    
+     3. READ
+        3.1. Parametros que asociados al WHERE
+              --------------------------------
+               Atributo           Valor de Parametro
+             ---------------------------------
+       	       ELE_ID             Puede ser 0 o un Valor
+               ELE_IDENTITYCARD   Puede ser Null  o  String-longitud-Cero (en el where evaluar por longitud de string) o un String 
+               ELE_ACTIVE         Pede ser Null o un Booleano 
+
+	3.2. Atributos asociados al SELECT:
+             .ELE_ID AS EmployeeId
+     	     .ELE_IDENTITYCARD AS IdentityCard
+             .ELE_FIRSTNAME AS Firstname
+             .ELE_LASTNAME AS Lastname
+             .ELE_BIRTHDATE AS Birthdate (Formato dd-mm-yyyy)
+             .ELE_ACTIVE AS Active
+             .ELE_AUDIT_DATETIME AS Audit_DateTime (Formato dd-mm-yyyy hh:mm:ss)

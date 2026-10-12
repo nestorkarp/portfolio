@@ -1,0 +1,64 @@
++ Base de Dato: PostgreSQL 18
+ 
++ Tabla asociada[ employee ]
+  + Atributos:
+    . ele_id integer identity 
+    . ele_identityCard character varying(11)
+    . ele_firstname character varying(30), 
+    . ele_lastname character varying(30), 
+    . ele_birthdate date, 
+    . ele_active boolean
+
+
++ Generación de Stored Procedure
+   . Observaciones a tomar en consideración en la generación de los Stored Procedure INSERT - UPDATE - READ  
+      a)El nombre de cada parametro debe excluir los 4 primeros caracters 
+      b)El nombre del Stored Procedure debe ser: Prefijo SP_ + Tabla asociada + "_" + Sufijo (C= Create - U= Update - R= Read)
+      c)Primero definir los parametros Input y luego los Output
+      d)Debe retornar el Tipo de Error si es de VALIDATION o TECHNICAL en el parametro p_ErrorSource : [ Datatype= character varying(10)] [ Direction= OUTPUT ]  
+      e)Debe retornar la Descripción del Error en el parametro p_ErrorMessage: [ Datatype= character varying(255)] [ Direction= OUTPUT ] 
+      f)Por ultimo generar script para realizar Test de los Stored Procedure tanto para el caso Exitoso como el Erroneo
+      
+     1. INSERT 
+	 1.1. Atributos asociados:
+             . ele_id
+             . ele_identityCard  
+             . ele_firstname
+             . ele_lastname
+             . ele_birthdate
+             . ele_active
+         1.2. Para el atributo identityCard existe un Indice que impide la duplicación, si la Base de Datos lo detectara
+              debería retornar mensaje por Error de Validación "Registro Existente."
+         1.3. Debe retornar el ele_Id generado 
+
+
+     2. UPDATE
+	2.1. Atributos asociados:
+             . ele_id 
+             . ele_firstname
+             . ele_lastname
+             . ele_birthdate
+             . ele_active
+         2.2. La Cóndición para actualizar registo es que el parametro (p_Id) coincida con el valor del atributo ele_id
+         2.2. Si el p_Id no existiese debe retornar mensaje por Error de Validación "Registro Inexistente."
+
+ 
+
+      3. READ
+        3.1. Parametros que asociados al WHERE
+              --------------------------------
+               Atributo           Valor de Parametro
+             ---------------------------------
+       	       ele_id             Puede ser 0 o un Valor
+               ele_identityCard   Puede ser Null  o  String-longitud-Cero (en el where evaluar por longitud de string) o un String 
+               ele_active         Pede ser Null o un Booleano 
+
+	3.2. Atributos asociados al SELECT:
+             .ele_id AS EMPLOYEEId
+     	     .ele_identityCard AS IdentityCard
+             .ele_firstname AS Firstname
+             .ele_lastname AS Lastname
+             .ele_birthdate AS Birthdate
+             .ele_active AS Active
+             .ele_audit_datetime AS Audit_DateTime (Formato dd/mm/yyy hh:mm:ss)
+

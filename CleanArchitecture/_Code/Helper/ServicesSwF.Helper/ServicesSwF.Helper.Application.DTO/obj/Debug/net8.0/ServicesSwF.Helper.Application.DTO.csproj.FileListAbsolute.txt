@@ -1,0 +1,11 @@
+C:\Dev\Portfolio-Linkedin\Dev\CleanArchitecture\Helper\ServicesSwF.Helper\ServicesSwF.Helper.Application.DTO\bin\Debug\net8.0\ServicesSwF.Helper.Application.DTO.deps.json
+C:\Dev\Portfolio-Linkedin\Dev\CleanArchitecture\Helper\ServicesSwF.Helper\ServicesSwF.Helper.Application.DTO\bin\Debug\net8.0\ServicesSwF.Helper.Application.DTO.dll
+C:\Dev\Portfolio-Linkedin\Dev\CleanArchitecture\Helper\ServicesSwF.Helper\ServicesSwF.Helper.Application.DTO\bin\Debug\net8.0\ServicesSwF.Helper.Application.DTO.pdb
+C:\Dev\Portfolio-Linkedin\Dev\CleanArchitecture\Helper\ServicesSwF.Helper\ServicesSwF.Helper.Application.DTO\obj\Debug\net8.0\ServicesSwF.Helper.Application.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Portfolio-Linkedin\Dev\CleanArchitecture\Helper\ServicesSwF.Helper\ServicesSwF.Helper.Application.DTO\obj\Debug\net8.0\ServicesSwF.Helper.Application.DTO.AssemblyInfoInputs.cache
+C:\Dev\Portfolio-Linkedin\Dev\CleanArchitecture\Helper\ServicesSwF.Helper\ServicesSwF.Helper.Application.DTO\obj\Debug\net8.0\ServicesSwF.Helper.Application.DTO.AssemblyInfo.cs
+C:\Dev\Portfolio-Linkedin\Dev\CleanArchitecture\Helper\ServicesSwF.Helper\ServicesSwF.Helper.Application.DTO\obj\Debug\net8.0\ServicesSwF.Helper.Application.DTO.csproj.CoreCompileInputs.cache
+C:\Dev\Portfolio-Linkedin\Dev\CleanArchitecture\Helper\ServicesSwF.Helper\ServicesSwF.Helper.Application.DTO\obj\Debug\net8.0\ServicesSwF.Helper.Application.DTO.dll
+C:\Dev\Portfolio-Linkedin\Dev\CleanArchitecture\Helper\ServicesSwF.Helper\ServicesSwF.Helper.Application.DTO\obj\Debug\net8.0\refint\ServicesSwF.Helper.Application.DTO.dll
+C:\Dev\Portfolio-Linkedin\Dev\CleanArchitecture\Helper\ServicesSwF.Helper\ServicesSwF.Helper.Application.DTO\obj\Debug\net8.0\ServicesSwF.Helper.Application.DTO.pdb
+C:\Dev\Portfolio-Linkedin\Dev\CleanArchitecture\Helper\ServicesSwF.Helper\ServicesSwF.Helper.Application.DTO\obj\Debug\net8.0\ref\ServicesSwF.Helper.Application.DTO.dll

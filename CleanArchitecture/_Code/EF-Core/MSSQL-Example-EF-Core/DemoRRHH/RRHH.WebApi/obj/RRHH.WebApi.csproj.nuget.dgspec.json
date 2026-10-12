@@ -1,0 +1,233 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Dev\\PortfolioByLinkedin\\Cloud\\portfolio-linkedin\\Architecture\\CleanArchitecture\\_Code\\EF-Core\\MSSQL-Example-EF-Core\\DemoRRHH\\RRHH.WebApi\\RRHH.WebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Dev\\PortfolioByLinkedin\\Cloud\\portfolio-linkedin\\Architecture\\CleanArchitecture\\_Code\\EF-Core\\MSSQL-Example-EF-Core\\DemoRRHH\\RRHH.Core.Domain.Services\\RRHH.Core.Domain.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\PortfolioByLinkedin\\Cloud\\portfolio-linkedin\\Architecture\\CleanArchitecture\\_Code\\EF-Core\\MSSQL-Example-EF-Core\\DemoRRHH\\RRHH.Core.Domain.Services\\RRHH.Core.Domain.Services.csproj",
+        "projectName": "RRHH.Core.Domain.Services",
+        "projectPath": "C:\\Dev\\PortfolioByLinkedin\\Cloud\\portfolio-linkedin\\Architecture\\CleanArchitecture\\_Code\\EF-Core\\MSSQL-Example-EF-Core\\DemoRRHH\\RRHH.Core.Domain.Services\\RRHH.Core.Domain.Services.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\PortfolioByLinkedin\\Cloud\\portfolio-linkedin\\Architecture\\CleanArchitecture\\_Code\\EF-Core\\MSSQL-Example-EF-Core\\DemoRRHH\\RRHH.Core.Domain.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\PortfolioByLinkedin\\Cloud\\portfolio-linkedin\\Architecture\\CleanArchitecture\\_Code\\EF-Core\\MSSQL-Example-EF-Core\\DemoRRHH\\RRHH.Infrastructure.Persistence\\RRHH.Infrastructure.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\PortfolioByLinkedin\\Cloud\\portfolio-linkedin\\Architecture\\CleanArchitecture\\_Code\\EF-Core\\MSSQL-Example-EF-Core\\DemoRRHH\\RRHH.Infrastructure.Persistence\\RRHH.Infrastructure.Persistence.csproj",
+        "projectName": "RRHH.Infrastructure.Persistence",
+        "projectPath": "C:\\Dev\\PortfolioByLinkedin\\Cloud\\portfolio-linkedin\\Architecture\\CleanArchitecture\\_Code\\EF-Core\\MSSQL-Example-EF-Core\\DemoRRHH\\RRHH.Infrastructure.Persistence\\RRHH.Infrastructure.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\PortfolioByLinkedin\\Cloud\\portfolio-linkedin\\Architecture\\CleanArchitecture\\_Code\\EF-Core\\MSSQL-Example-EF-Core\\DemoRRHH\\RRHH.Infrastructure.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.30, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\PortfolioByLinkedin\\Cloud\\portfolio-linkedin\\Architecture\\CleanArchitecture\\_Code\\EF-Core\\MSSQL-Example-EF-Core\\DemoRRHH\\RRHH.WebApi\\RRHH.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\PortfolioByLinkedin\\Cloud\\portfolio-linkedin\\Architecture\\CleanArchitecture\\_Code\\EF-Core\\MSSQL-Example-EF-Core\\DemoRRHH\\RRHH.WebApi\\RRHH.WebApi.csproj",
+        "projectName": "RRHH.WebApi",
+        "projectPath": "C:\\Dev\\PortfolioByLinkedin\\Cloud\\portfolio-linkedin\\Architecture\\CleanArchitecture\\_Code\\EF-Core\\MSSQL-Example-EF-Core\\DemoRRHH\\RRHH.WebApi\\RRHH.WebApi.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\PortfolioByLinkedin\\Cloud\\portfolio-linkedin\\Architecture\\CleanArchitecture\\_Code\\EF-Core\\MSSQL-Example-EF-Core\\DemoRRHH\\RRHH.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Dev\\PortfolioByLinkedin\\Cloud\\portfolio-linkedin\\Architecture\\CleanArchitecture\\_Code\\EF-Core\\MSSQL-Example-EF-Core\\DemoRRHH\\RRHH.Core.Domain.Services\\RRHH.Core.Domain.Services.csproj": {
+                "projectPath": "C:\\Dev\\PortfolioByLinkedin\\Cloud\\portfolio-linkedin\\Architecture\\CleanArchitecture\\_Code\\EF-Core\\MSSQL-Example-EF-Core\\DemoRRHH\\RRHH.Core.Domain.Services\\RRHH.Core.Domain.Services.csproj"
+              },
+              "C:\\Dev\\PortfolioByLinkedin\\Cloud\\portfolio-linkedin\\Architecture\\CleanArchitecture\\_Code\\EF-Core\\MSSQL-Example-EF-Core\\DemoRRHH\\RRHH.Infrastructure.Persistence\\RRHH.Infrastructure.Persistence.csproj": {
+                "projectPath": "C:\\Dev\\PortfolioByLinkedin\\Cloud\\portfolio-linkedin\\Architecture\\CleanArchitecture\\_Code\\EF-Core\\MSSQL-Example-EF-Core\\DemoRRHH\\RRHH.Infrastructure.Persistence\\RRHH.Infrastructure.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

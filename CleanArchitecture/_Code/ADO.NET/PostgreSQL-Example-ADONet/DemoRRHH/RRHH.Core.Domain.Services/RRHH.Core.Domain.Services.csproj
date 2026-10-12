@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Authors>Néstor Karp</Authors>
+		<Copyright>2026</Copyright>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Reference Include="RRHH.Core.Application.DTO">
+	    <HintPath>..\RRHH.Core.Application.Interfaces.Services\bin\Debug\net8.0\RRHH.Core.Application.DTO.dll</HintPath>
+	  </Reference>
+	  <Reference Include="RRHH.Core.Application.Interfaces.Repository">
+	    <HintPath>..\RRHH.Core.Application.Interfaces.Repository\bin\Debug\net8.0\RRHH.Core.Application.Interfaces.Repository.dll</HintPath>
+	  </Reference>
+	  <Reference Include="RRHH.Core.Application.Interfaces.Services">
+	    <HintPath>..\RRHH.Core.Application.Interfaces.Services\bin\Debug\net8.0\RRHH.Core.Application.Interfaces.Services.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+</Project>

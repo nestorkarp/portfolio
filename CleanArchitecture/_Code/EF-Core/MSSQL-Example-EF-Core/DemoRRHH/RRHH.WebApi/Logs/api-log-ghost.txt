@@ -1,0 +1,1 @@
+Este archivo solo tiene como objetivo permitir a Git subir la carpeta Logs

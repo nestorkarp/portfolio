@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Authors>Néstor Karp</Authors>
+		<Copyright>2026</Copyright>
+		<PlatformTarget>x64</PlatformTarget>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.12" />
+	  <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.12" />
+	  <PackageReference Include="Net.IBM.Data.Db2" Version="8.0.0.500" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="RRHH.Core.Application.DTO">
+	    <HintPath>..\RRHH.Core.Application.Interfaces.Repository\bin\Debug\net8.0\RRHH.Core.Application.DTO.dll</HintPath>
+	  </Reference>
+	  <Reference Include="RRHH.Core.Application.Interfaces.Repository">
+	    <HintPath>..\RRHH.Core.Application.Interfaces.Repository\bin\Debug\net8.0\RRHH.Core.Application.Interfaces.Repository.dll</HintPath>
+	  </Reference>
+	  <Reference Include="ServicesSwF.Helper.Application.DTO">
+	    <HintPath>..\..\..\ServicesSwF.Infrastructure.Data\ServicesSwF.Infrastructure.Data.Repositories\bin\Debug\net8.0\ServicesSwF.Helper.Application.DTO.dll</HintPath>
+	  </Reference>
+	  <Reference Include="ServicesSwF.Infrastructure.Data.Repositories">
+	    <HintPath>..\..\..\ServicesSwF.Infrastructure.Data\ServicesSwF.Infrastructure.Data.Repositories\bin\Debug\net8.0\ServicesSwF.Infrastructure.Data.Repositories.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+</Project>
